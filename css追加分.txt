@@ -1,0 +1,95 @@
+
+ul #nav {
+  font-size: 100%;
+  font-weight: bold;
+  list-style: none;
+  position:fixed;
+  top:20px;
+  right:-150px;
+  margin:0;
+}
+#nav li {
+  margin-bottom: 0.8em;
+}
+#nav li a {
+  text-decoration: none;
+  color: #333333;
+  display:block;
+  background-repeat:no-repeat;
+  height:64px;
+  padding-left:70px;
+  line-height:64px;  
+}
+#nav li a:hover {
+  color: #FF9900;
+}
+#nav .twitter{
+  background-image:url(twitter.png);
+}
+#nav .facebook{
+  background-image:url(facebook.png);
+}
+#nav .youtube{
+  background-image:url(youtube.png);
+}
+#nav .rss{
+  background-image:url(rss.png);
+}
+
+
+
+
+#nav9 {
+	margin-left: 20px;
+	font-size: 100%;
+	font-weight: bold;
+	list-style: none;
+}
+#nav9 li {
+	margin-bottom: 0.8em;
+}
+#nav9 li a {
+	text-decoration: none;
+	color: #333333;
+}
+#nav9 li a:hover {
+	color: #FF9900;
+}
+
+
+ul #nav1 {
+  font-size: 100%;
+  font-weight: bold;
+  list-style: none;
+  position:fixed;
+  top:20px;
+  right:-150px;
+  margin:0;
+}
+#nav1 li {
+  margin-bottom: 0.8em;
+}
+#nav1 li a {
+  text-decoration: none;
+  color: #333333;
+  display:block;
+  background-repeat:no-repeat;
+  height:64px;
+  padding-left:70px;
+  line-height:64px;  
+}
+#nav1 li a:hover {
+  color: #FF9900;
+}
+#nav1 .twitter{
+  background-color:aqua;
+}
+#nav1 .facebook{
+  background-color:gold;
+}
+#nav1 .youtube{
+  background-color:red;
+}
+#nav1 .rss{
+  background-image:url(rss.png);
+}
