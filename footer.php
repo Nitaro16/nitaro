@@ -1,7 +1,21 @@
-<div id="footer">
-<p><a href="#" style="text-decoration: none"><font color="black" >お問い合わせ</font></a></p>
-	F&A
-<p><a href="#" style="text-decoration: none"><font color="black" >・ハイチュウ美味しくない</font></a></p>
-<p><a href="#" style="text-decoration: none"><font color="black" >・ハイチュウマズイ</font></a></p>
-<p><a href="#" style="text-decoration: none"><font color="black" >・ハイチュウ食べたくない</font></a></p>
-</div>
+
+<ul id="footer" class="topmenu">
+	<li class="topfirst"><a href="#" style="height:20px;line-height:20px;"><span>Item 0</span></a>
+	<ul>
+		<li class="subfirst"><a href="#">Item 0 2</a></li>
+		<li><a href="#">Item 0 1</a></li>
+		<li><a href="#">Item 0 0</a></li>
+	</ul></li>
+	<li class="topmenu"><a href="#" style="height:20px;line-height:20px;"><span>Item 1</span></a>
+	<ul>
+		<li class="subfirst"><a href="#">Item 1 0</a></li>
+		<li><a href="#">Item 1 1</a></li>
+		<li><a href="#">Item 1 2</a></li>
+	</ul></li>
+	<li class="toplast"><a href="#" style="height:20px;line-height:20px;"><span>Item 2</span></a>
+	<ul>
+		<li class="subfirst"><a href="#">Item 2 2</a></li>
+		<li><a href="#">Item 2 1</a></li>
+		<li><a href="#">Item 2 0</a></li>
+	</ul></li>
+</ul>

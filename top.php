@@ -4,17 +4,34 @@
 <meta http-equiv="Content-Type" content="text/html; charset=Windows-31J" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <link href="shop.css" rel="stylesheet" type="text/css" />
-
 <script>
 $(function() {
-   $('#nav').hover(
-    function(){
-      $(this).find('span').stop().animate({'marginRight':'175px'},500);
-    },
-    function () {
-      $(this).find('span').stop().animate({'marginRight':'0px'},300);
-    }
-  );
+     $('#nav li a').mouseover(
+        function(){
+            $(this).stop()
+                .animate({marginLeft:'20px'},{duration:150, queue: true})
+                .animate({marginLeft:'0px'},{duration:150, queue: true});
+        }
+    );
+
+	$('#nav a')
+    //ボタンを-200で配置
+    .each(function(){
+        $(this).css('margin-left', '0px')
+    })
+    .hover(
+        function(){
+            $(this).stop().animate({
+                'marginLeft':'50px'
+            },'fast');
+        },
+        function () {
+            $(this).stop().animate({
+                'marginLeft':'0px'
+            },'slow');
+        }
+    );
+
 });
 </script>
 
