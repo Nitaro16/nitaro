@@ -1,0 +1,44 @@
+
+#left_menu {
+    clear: both;
+    float:left;
+    width: 15%;
+    height:inherit;
+    margin-left:30px;
+    margin-right:20px;
+}
+#left_menu p { 
+  position: relative;
+  transition-property: border;
+  transition-duration: 1s;
+  transition-delay: 0s;
+	font-size:18px;
+    background-color:#ffffff;
+	color:black;
+    text-align:center;
+    text-decoration:none;
+    background-color:cyan;
+	border-style:solid;
+    border-width:3px;
+    border-color:#ffffff;
+}
+
+#left_menu p:hover {
+    transition-property: border;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    color:black;
+    border-color:#ff8c00;
+    border-style:solid;
+    border-width:3px;
+    border-color:cyan;
+background: rgb(237,144,23); /* Old browsers */
+background: -moz-linear-gradient(left, rgb(237,144,23) 0%, rgb(246,230,180) 50%, rgb(246,230,180) 50%, rgb(246,230,180) 50%, rgb(246,230,180) 50%, rgb(246,230,180) 50%, rgb(246,230,180) 50%, rgb(237,144,23) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(237,144,23)), color-stop(50%,rgb(246,230,180)), color-stop(50%,rgb(246,230,180)), color-stop(50%,rgb(246,230,180)), color-stop(50%,rgb(246,230,180)), color-stop(50%,rgb(246,230,180)), color-stop(50%,rgb(246,230,180)), color-stop(100%,rgb(237,144,23))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgb(237,144,23) 0%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(237,144,23) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, rgb(237,144,23) 0%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(237,144,23) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, rgb(237,144,23) 0%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(237,144,23) 100%); /* IE10+ */
+background: linear-gradient(to right, rgb(237,144,23) 0%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(246,230,180) 50%,rgb(237,144,23) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed9017', endColorstr='#ed9017',GradientType=1 ); /* IE6-9 */
+}
+

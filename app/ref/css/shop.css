@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/*-------------------------
+#header
+オランゲ#FF8F22
+--------------------------*/
+body {
+    font-family:  sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color:#ffffff;
+	font-size:13px;
+	color:black;
+    
+}
+
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+}
+#page-top a {
+    background: #666;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 30px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+#page-top a:hover {
+    text-decoration: none;
+    background: #999;
+}
+
+
+a {
+    outline: none;
+}
+
+#footer {
+	float:left;
+    color:black;
+    
+}
+
+#main {
+    max-width:100%;
+    min-height:500px;
+    
+    
+}
+
+#ranking {
+	padding-top:20px;
+    padding-left:150px;
+    clear: both;
+}
+
+
+#slideshow {
+    position:relative;
+    padding-left:400px;
+    height:350px;
+    
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
+ table.tables{
+    background-color:#ffffff;
+    empty-cells:show;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+.tables th{
+	width: 333px;
+    color:#111;
+    text-align:left;
+  text-decoration: none;
+}
+.tables td{
+	color:#111;
+	width: 333px;
+}
+
+#acMenu dt{
+    display:block;
+    width:350px;
+    line-height:30px;
+    text-align:left;
+    cursor:pointer;
+    }
+#acMenu dd{
+    width:350px;
+    line-height:30px;
+    text-align:left;
+    display:none;
+    }
+#acMenu dt.active{
+	
+    }
+
+
+#select {
+    width:250px;
+    height:350px;
+    float:left;
+    }
+
+#view {
+    float:right;
+    width:77%;
+}
+
